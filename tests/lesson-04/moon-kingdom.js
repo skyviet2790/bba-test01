@@ -27,7 +27,7 @@ const medals = ["🥇 Gold", "🥈 Silver", "🥉 Bronze"];
 players.sort((a, b) => b.score - a.score);
 players.forEach((player, index) => {
     if (index < medals.length) {
-        player.medals = medals[index];
+        player.medal = medals[index];
     }
 });
 console.log(players);
