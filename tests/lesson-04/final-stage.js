@@ -11,7 +11,8 @@
     pairs.forEach((pair) => {
         console.log(pair);
     });
+    const count = pairs.length;
+    console.log(`\n Tổng cộng: ${count} cặp`);
 }
 
 findPairsDivisibleBy17();
-
